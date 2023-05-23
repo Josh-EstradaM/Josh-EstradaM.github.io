@@ -1,0 +1,1882 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #F2F2F2;
+  background-image: linear-gradient(#F2F2F2, #D3D3D3); /* Degradado de colores pastel */
+  text-align: justify;
+  
+}
+
+header {
+  background-color: #E6E6FA;
+  padding: 20px;
+}
+
+h1 {
+  color: #FFB6C1; /* Rosa pastel */
+  margin: 0;
+}
+
+h2 {
+  color: #00BFFF; /* Azul pastel */
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+}
+
+nav ul li a:hover {
+  color: #666;
+}
+
+main {
+  margin: 20px;
+}
+
+footer {
+  background-color: #E6E6FA;
+  padding: 10px;
+  text-align: center;
+  color: #333;
+}
+
+.container {
+  background-color: #F0FFF0; /* Verde pastel */
+  padding: 20px;
+  text-align: center;
+  margin: 20px auto;
+  max-width: 600px;
+   border: 5px solid #9370DB;
+}
+
+.container h2 {
+  color: #FFA500; /* Naranja pastel */
+  margin-bottom: 10px;
+}
+
+.container p {
+  color: #800080; /* Púrpura pastel */
+  
+}
+
+#introduccion {
+  background-color: #FFE4E1; /* Rosa pastel */
+  padding: 20px;
+  text-align: center;
+   border: 1px solid #9370DB;
+}
+
+#introduccion h2 {
+  color: #ADD8E6; /* Azul pastel */
+}
+
+a {
+  color: #32CD32; /* Rosa pastel fuerte */
+}
+.enlace-pastel-fuerte {
+  color: #32CD32; /* Rosa pastel fuerte */
+}
+
+.parrafo-contenedor {
+  border: 1px solid #ccc;
+  padding: 10px;
+  background-color: #f1f1f1;
+}
+</style>
+  <title>Arquitectura de Computadoras</title>
+  <link rel="stylesheet" type="text/css" href="..\arqui\css\index.css">
+</head>
+<body>
+  <header>
+    <h1>Arquitectura de Computadoras</h1>
+    <nav>
+      <ul>
+        <li><a href="#temario">Unidades</a></li>
+        <li><a href="#practicas">Prácticas</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <section id="introduccion">
+    <div class="container">
+      <h2 style="text-align: justify;">Introducción a la Arquitectura de Computadoras</h2>
+      <p style="text-align: justify;">La arquitectura de computadoras es un campo fascinante que nos permite entender cómo funcionan las computadoras desde adentro. 
+        Estudiamos cómo se diseñan y organizan los componentes internos, como el procesador, la memoria y los dispositivos de entrada/salida. 
+        Aprendemos sobre los principios fundamentales que rigen el procesamiento de información, cómo se ejecutan las instrucciones y cómo se almacenan los datos. 
+        También exploramos cómo se comunican los distintos componentes y cómo se optimiza el rendimiento de una computadora. 
+        La arquitectura de computadoras nos brinda una base sólida para comprender el funcionamiento de estas poderosas 
+        máquinas y nos ayuda a desarrollar habilidades para diseñar y mejorar sistemas computacionales.</p>
+    </div>
+  </section>
+
+  <main>
+    <section id="temario">
+      <h2>Unidades</h2>
+      <ol>
+        <li style="list-style-type: disc;"><a href="#unidad1" class="enlace-pastel-fuerte">Unidad 1: Arquitecturas de cómputo</a></li>
+        <li style="list-style-type: disc;"><a href="#unidad2" class="enlace-pastel-fuerte">Unidad 2: Estructura y Funcionamiento de la Unidad Central de Procesamiento</a></li>
+        <li style="list-style-type: disc;"><a href="#unidad3" class="enlace-pastel-fuerte">Unidad 3: Selección de componentes para ensamble de equipo de cómputo</a></li>
+        <li style="list-style-type: disc;"><a href="#unidad4" class="enlace-pastel-fuerte">Unidad 4: Procesamiento paralelo</a></li>
+      </ol>
+    </section>
+
+    <section id="practicas">
+      <h2>Prácticas</h2>
+      <ol>
+        <li style="list-style-type: disc;"><a href="https://drive.google.com/file/d/1WmZdUiLHKZq0Qa3rfW62yaHwXWM23ZjM/view?usp=share_link" class="enlace-pastel-fuerte">Práctica 1: Componentes de la computadora</a></li>
+        <li style="list-style-type: disc;"><a href="https://drive.google.com/file/d/1-uVuiWUMOSfvIM4hUM982r2qi8L_Mlhn/view?usp=sharing" class="enlace-pastel-fuerte">Práctica 2: Procesadores</a></li>
+        <li style="list-style-type: disc;"><a href="https://drive.google.com/file/d/1yH7gV6olzBOMs7ndPN0dvBkdhmmygVZb/view?usp=sharing" class="enlace-pastel-fuerte">Práctica 3: Memorias RAM</a></li>
+        <li style="list-style-type: disc;"><a href="https://drive.google.com/file/d/1NqFScOOLC9wMjjUSawFOChPluOdEfQgW/view?usp=share_link" class="enlace-pastel-fuerte">Práctica 4: Usos de cada gama</a></li>
+        <li style="list-style-type: disc;"><a href="https://drive.google.com/file/d/1YVifanuGTyt8TZ1ShUr_AuoEi7GdpN-s/view?usp=share_link" class="enlace-pastel-fuerte">Práctica 5: Equipos de cada gama</a></li>
+        <li style="list-style-type: disc;"><a href="https://drive.google.com/file/d/1Z27U-nWelzfW0x_GGr6kF_sVXSVBF-Z-/view?usp=share_link" class="enlace-pastel-fuerte">Práctica 6: Cotización</a></li>
+      </ol>
+    </section>
+
+    <section id="unidad1">
+      <h3>Unidad 1: Arquitecturas de cómputo</h3>
+      <div>
+        <h4>Temas:</h4>
+        <ul>
+          <li><a href="#subtema1">Modelos de arquitecturas de cómputo</a></li>
+          <li><a href="#subtema2">INSTRUCCIONES</a></li>
+          <li><a href="#subtema3">Arquitecturas Clásicas</a></li>
+          <li><a href="#subtema4">Arquitectura Von-Neumann</a></li>
+		  <li><a href="#subtema5">Arquitectura Harvard </a></li>
+          <li><a href="#subtema6">Segmentadas</a></li>
+          <li><a href="#subtema7">De multiprocesamiento</a></li>
+          <li><a href="#subtema8">Memoria Ram (Random Access Memory)</a></li><li><a href="#subtema">Subtema 1</a></li>
+          <li><a href="#subtema9">ROM (Read Only Memory)</a></li>
+          <li><a href="#subtema10">Manejo de entrada / salida</a></li>
+          <li><a href="#subtema11">Acceso directo a memoria</a></li><li><a href="#subtema">Subtema 1</a></li>
+          <li><a href="#subtema12">BUSES</a></li>
+          <li><a href="#subtema13">Interrupciones</a></li>
+          
+        </ul>
+		
+		<div class="parrafo-contenedor">
+        <p id="subtema1"><b>Modelos de arquitecturas de cómputo</b> La arquitectura de una computadora es la
+especificación/descripción de la estructura y dinámica de
+este sistema computacional de manera abstracta, es
+decir, describe el sistema computacional de manera
+general.
+Adicionalmente, la palabra arquitectura, entendida como
+arte o disciplina, también aplica a la arquitectura de
+computadoras, siendo esta la disciplina de diseñar y crear
+los diseños lógicos y estándares para computadoras (tal
+como un arquitecto diseña y crea edificios).
+<br>
+El cuello de botella de Soluciones
+Von-Neumann = Por compartir un mismo bus para los datos
+y las instrucciones, las computadoras que
+siguen este modelo demuestran una
+limitación en la tasa de transferencia de
+datos entre el CPU y la memoria. Por lo
+mismo, aunque mejore la memoria y el
+procesador de las computadoras, este
+cuello de botella limitará la velocidad de
+procesamiento. 
+<br>
+Soluciones = ● Proveer cache entre el CPU y la
+memoria principal (de manera que
+no se tienen que extraer los datos
+en cuestión de la memoria).
+● Utilizar arquitecturas de múltiples
+buses y cachés especializados para
+instrucciones y para datos.
+● Estrechar al CPU y a la memoria
+mediante chips de sistemas
+integrados.
+<br>
+Caché = El acceso paralelo a instrucciones y datos en memoria
+puede potenciarse mediante caché de CPU.
+En esta arquitectura, la memoria caché del CPU está
+dividida en memoria caché de instrucciones y de datos.
+Arquitectura Harvard Modificada= Es la arquitectura de Harvard con la diferencia de que permite
+el acceso a las instrucciones como si estas estuvieran en la
+memoria de datos. Aunque hay varios diseños modificados
+de la arquitectura de Harvard, en una en específico, se
+vuelven a juntar los espacios de direcciones de memoria pero
+se conserva la independencia de las instrucciones y los datos
+al nivel del cache (estando este en un punto intermedio entre
+el CPU y la memoria).
+</p></div>
+<br>
+<br>
+<div class="parrafo-contenedor">
+        <p id="subtema2"> <b>INSTRUCCIONES</b>Una instrucción es una operación de un procesador,
+cuya forma depende del ISA que implemente el
+procesador en cuestión. Las ISAs (arquitecturas de conjuntos de
+instrucciones) son modelos que definen
+las operaciones, tipos de datos, registros,
+E/S, etc, de una familia dada de
+procesadores. Es decir, definen el código
+máquina que el procesador entiende.</p></div>
+<br>
+<br>
+<div class="parrafo-contenedor">
+        <p id="subtema3">  <b>Arquitecturas Clásicas</b> Las primeras computadoras fueron de programas fijos, es decir, de programas inherentes
+a su diseño físico, mientras que las computadoras de programas almacenados, con base
+en ISAs, posibilitan almacenar programas (conjuntos de instrucciones) en la memoria, y,
+por lo mismo, posibilitan crear programas para escribir programas.</p></div>
+<br>
+<br>
+		<div class="parrafo-contenedor">
+        <p id="subtema4"> <b>Arquitectura Von-Neumann</b> Es una arquitectura de computadoras que consiste en una
+unidad de procesamiento (abarca a la UC, la ALU y los registros
+de procesador), una unidad de control (que abarca al registro
+de instrucciones y al contador de programas), memoria,
+almacenamiento, y mecanismos de entrada/salida.</p></div>
+<br>
+<br>		
+<div class="parrafo-contenedor">
+		<p id="subtema5"> <b>Arquitectura Harvard</b> Es una arquitectura de computadoras similar a la
+Von-Neumann pero con secciones de memoria
+independientes para las instrucciones y los datos de la
+computadora, lo cual implica buses independientes
+correspondientemente. La versión modificada de esta
+arquitectura es la que actualmente domina el mercado.</p></div>
+<br>
+<br>
+		<div class="parrafo-contenedor">
+		<p id="subtema6"> <b>Segmentadas</b> Es una técnica de implementación por la cual
+se solapa la ejecución de múltiples
+instrucciones.Hoy día, la segmentación es la
+técnica de implementación clave utilizada
+para hacer CPU rápidas.
+Consiste en la segmentación del procesador
+a lo que llamamos “pipeline”,
+descomponiendo en etapas para poder
+procesar una instrucción diferente en cada
+una de ellas y trabajar con variables a la vez. 
+La segmentación es como una línea de ensamblaje: cada etapa de la segmentación completa
+una parte de la instrucción. Como en una línea de ensamblaje de automóviles, el trabajo que va
+a realizar en una instrucción se descompone en partes más pequeñas, cada una de las cuales
+necesita una fracción del tiempo necesario para completar la instrucción completa. Cada uno
+de estos pasos se define como etapa de la segmentación o segmento. Las etapas están
+conectadas, cada una a la siguiente, para formar una especie de cauce las instrucciones se
+entran por un extremo, son procesadas a través de las etapas y salen por el otro extremo.
+La productividad de la segmentación está determinada por la frecuencia con que una
+instrucción salga del cauce. Como las etapas están conectadas entre sí, todas las etapas deben
+estar listas para proceder al mismo tiempo. El tiempo requerido para desplazar una instrucción,
+un paso, a lo largo del cauce es un ciclo máquina. La duración de un ciclo máquina está
+determinada por el tiempo que necesita la etapa más lenta (porque todas las etapas progresan
+a la vez). Con frecuencia, el ciclo máquina es un ciclo de reloj (a veces dos, o raramente más),
+aunque el reloj puede tener múltiples fases.
+<br>
+Tipos de cauces:
+● Unifunción: ejecutan un único proceso.
+● Multifunción: pueden ejecutar varios procesos:
+● Estáticos: en un instante determinado sólo pueden ejecutar uno.
+● Dinámicos: pueden ejecutar simultáneamente varios procesos.
+● Lineal: a cada etapa sólo le puede seguir otra etapa concreta.
+● No lineal: se pueden establecer recorridos complejos de las etapas.
+● La segmentación no ayuda en la realización de una única tarea, ayuda en la realización de una carga de trabajo.
+● Se pueden realizar múltiples tareas simultáneamente utilizando diferentes recursos.
+● La velocidad se incrementa si se aumenta el número de segmentos.
+● La razón de segmentación está dada por el segmento más lento.</p></div>
+<br>
+<br>
+		<div class="parrafo-contenedor">
+		<p id="subtema7"> <b>De multiprocesamiento</b> El multiprocesamiento es una tecnología que permite realizar múltiples tareas
+simultáneamente en un sistema informático. Esto se hace mediante el uso de
+múltiples procesadores o núcleos de procesador que trabajan juntos para
+realizar tareas complejas. El multiprocesamiento se utiliza para mejorar el
+rendimiento y la eficiencia en la realización de tareas, así como para manejar
+tareas grandes y complejas, como simulaciones de modelos, procesamiento de
+grandes cantidades de datos y ejecución de aplicaciones con uso intensivo de
+gráficos.
+<br>
+Hay dos tipos principales de multiprocesamiento: multiprocesamiento
+simétrico (SMP) y multiprocesamiento asimétrico (AMP). En SMP, todos los
+procesadores son iguales y comparten la misma memoria y recursos, mientras
+que en AMP, los procesadores tienen distintas capacidades y
+responsabilidades.
+<br>
+SMP (Symmetric Multi-Processing) es un tipo de arquitectura de
+computadoras donde dos o más unidades de procesamiento
+comparten una única memoria central.
+Los sistemas SMP permiten que cualquier procesador trabaje en
+cualquier tarea sin importar su localización en memoria.
+Cabe destacar que en esta clase de sistemas los distintos
+procesadores comparten el mismo bus de salida/entrada o ruta de
+datos.
+<br>
+Un sistema asimétrico (AMP o ASMP) es un modelo de
+multiprocesamiento donde no todos los procesadores tienen la
+misma prioridad. Por ejemplo un sistema puede permitir que solo un
+CPU ejecute código del sistema o puede permitir que solo un CPU se
+encargue de las operaciones I/O. El procesador encargado de
+manejar la memoria es conocido como “procesador maestro” así
+utilizando un sistema maestro-esclavo.</p></div>
+<br>
+<br>
+		<div class="parrafo-contenedor">
+		<p id="subtema8"> <b>Memoria Ram (Random Access Memory)</b> Memoria volátil la cual tiene la capacidad de
+leer y escribir datos de manera rápida
+Siempre debe de tener una fuente de
+poder, sí no los datos almacenados se
+perderán
+Se divide en memoria dinámica DRAM y memoria estatica (SRAM)</p></div>
+<br>
+<br>
+		<div class="parrafo-contenedor">
+		<p id="subtema9"> <b>ROM (Read Only Memory)</b> Contiene un patrón de datos permanentes
+No se puede escribir en ella
+Existen modelos de rom programables
+PROM cómo los EPROM y los EEPROM
+En las últimas dos décadas la memoria flash
+se ha hecho altamente popular en
+memorias USB, memorias de BIOS y
+Unidades de Estado sólido</p></div>
+<br>
+<br>
+		<div class="parrafo-contenedor">
+		<p id="subtema10">  <b>Manejo de entrada / salida</b>1.DIRECCIONAMIENTO: selección del dispositivo correspondiente de
+entre los dispositivos disponibles en el sistema.
+<br>
+2.SINCRONIZACIÓN: ha de posibilitar que la CPU y la memoria (alta
+velocidad transferencia de datos) se puedan comunicar con los
+dispositivos de E/S (baja velocidad) sincronizando los envíos de datos
+entre ambos.
+<br>
+3.TRANSFERENCIA: el sistema E/S debe de tener toda la circuitería y
+señales de comunicación apropiadas para llevar a cabo la
+comunicación con cada uno de los dispositivos del sistema.</p></div>
+<br>
+<br>
+		<div class="parrafo-contenedor">
+		<p id="subtema11"> <b>Acceso directo a memoria</b> El DMA (Direct Memory Access) es un procesador/controlador
+especializado en transferencias “muy grandes” desde periféricos a
+memoria y viceversa.
+<br>
+•Es programable. La CPU no realiza ninguna tarea (salvo programar
+el DMA) ya que la inicialización y transferencia son gobernadas por
+el periférico.
+Para programar el DMA hay que enviarle al menos los siguientes
+datos:
+•Dirección/puerto periférico E/S.
+•Posición/dirección en memoria principal.
+•Tamaño (número de bytes a transferir).
+•Tipo transferencia: lectura o escritura.</p></div>
+<br>
+<br>
+		<div class="parrafo-contenedor">
+		<p id="subtema12"> <b>BUSES</b> TIPOS DE BUSES: 
+		En paralelo-
+Es un bus en el cual los datos son enviados por bytes al mismo tiempo, con la
+ayuda de varias líneas que tienen funciones fijas.
+
+<br>
+ En serie-
+En este los datos son enviados de bit a bit y se reconstruyen por medio de
+registros o rutinas de software.
+● LÍNEAS DE DATOS: Caminos para
+transferir datos entre el resto de
+componentes de un computador.
+● LÍNEAS DE DIRECCIONES: Designan la
+posición/dirección de los datos.
+● LÍNEAS DE CONTROL: Controlan el
+acceso y uso de los buses anteriores.</p></div>
+<br>
+<br>
+		<div class="parrafo-contenedor">
+		<p id="subtema13"> <b>Interrupciones</b> Una interrupción (del inglés Interrupt
+Request, también conocida como
+petición de interrupción) es una señal
+recibida por el procesador de un
+ordenador, indicando que debe
+"interrumpir" el curso de ejecución
+actual y pasar a ejecutar código
+específico para tratar esta situación. 
+-Una interrupción es una
+suspensión temporal de la
+ejecución de un proceso,
+para pasar a ejecutar una
+subrutina de servicio de
+interrupción
+<br>
+.-Interrupciones de Hardware
+Division por cero
+“Ejecución paso a paso”
+“No enmascarable”
+“Punto de ruptura”
+“Desbordamiento”
+“Dispositivo no disponible”
+<br>
+.-Interrupciones por Software
+Son aquellas generadas por un
+programa en ejecución.
+“Interrupciones de la BIOS”
+“Interrupciones de DOS”
+“Interrupción de Dato Exterior”</p></div>
+<br>
+<br>
+		
+		
+		
+		
+      </div>
+    </section>
+
+    <section id="unidad2">
+      <h3>Unidad 2: Estructura y Funcionamiento de la Unidad Central de Procesamiento</h3>
+      <div>
+        <h4>Temas:</h4>
+        <ul>
+          <li><a href="#subtema1.1">Organización
+del procesador</a></li>
+          <li><a href="#subtema2.1">Estructura de
+registros</a></li>
+          <li><a href="#subtema3.1">El ciclo de
+instrucción</a></li>
+          <li><a href="#subtema4.1">Modos de
+direccionamiento</a></li>
+		  <li><a href="#subtema5.1">Casos de estudio
+de CPU reales</a></li>
+          <li><a href="#subtema6.1">Registros de Control y de
+Estados</a></li>
+          <li><a href="#subtema7.1">Conjunto de instrucciones:
+Características y funciones</a></li>
+          
+        </ul>
+		<div class="parrafo-contenedor">
+        <p id="subtema1.1"><b>Organización
+del procesador </b>Todo comenzó con las calculadoras mecánicas, desde cosas
+tan simples como el ábaco, pasando por la calculadora
+mecánica de Pascal hasta llegar a la máquina analítica de
+Babbage, que realizaba operaciones con el uso de tarjetas
+perforadas.
+Después surgieron calculadoras mecánicas controladas
+eléctricamente, sin embargo no eran lo suficientemente
+portables como para usarlas en una oficina (eran del
+tamaño de cajas registradoras), hasta que surgió la primera
+calculadora de su tipo, llamada Bowmar Brain.
+Tarjetas perforadas = Son básicamente cartulinas con información en forma de
+perforaciones. El código más usado fue un código de 12 bits o
+perforaciones llamado Codigo Hollerit, creado por Herman
+Hollerit, fundador de IBM y de los primeros en usar las tarjetas
+perforadas en sus máquinas.
+El funcionamiento se basa en la lectura de las perforaciones
+mediante una máquina. La máquina utiliza una serie de pines
+que se desplazan a través de los agujeros para detectar las
+perforaciones y convertirlas en señales eléctricas, que pueden
+ser procesadas por una computadora para realizar diversas
+tareas, como la entrada de datos o la ejecución de programas
+<br>
+Organización del procesador = 
+● Unidad de control: Esta unidad se encarga de leer las instrucciones del programa
+y de decodificarlas para que puedan ser ejecutadas por el procesador.
+<br>
+● Unidad aritmético-lógica (ALU): La ALU es la unidad encargada de realizar
+operaciones aritméticas (suma, resta, multiplicación, división) y lógicas (AND, OR,
+NOT) sobre los datos que se encuentran en la memoria.
+<br>
+● Registros: Los registros son una pequeña cantidad de memoria de alta velocidad
+que se encuentran dentro del procesador. Sirven para almacenar temporalmente
+los datos y las instrucciones que se están procesando.
+<br>
+● Unidad de memoria caché: La memoria caché es una memoria de acceso rápido
+que se encuentra en el procesador. Sirve para almacenar temporalmente los datos
+que se están utilizando con mayor frecuencia, con el objetivo de acelerar el acceso
+a los mismos.</p></div>
+		<br>
+		<br>
+		<div class="parrafo-contenedor">
+        <p id="subtema2.1"><b> Estructura de
+registros</b> Un registro es una memoria de alta velocidad y poca capacidad,
+integrada en el microprocesador, que permite guardar transitoriamente
+y acceder a valores muy usados, generalmente en operaciones
+matemáticas.
+<br>
+¿Qué son los registros visibles del usuario?
+Los registros visibles del usuario son un conjunto de registros que pueden
+ser accedidos directamente por los programas que se ejecutan en la CPU.
+Los registros visibles son una parte importante de la arquitectura de la
+CPU, ya que son utilizados por los programas para almacenar
+temporalmente datos que se están procesando.
+<br>
+Registros de Control y de
+Estados
+Los registros de control son utilizados por la unidad de control
+para controlar el funcionamiento de la CPU y por programas
+privilegiados del sistema para controlar la ejecución de
+programas.
+● Regulan la ejecución de instrucciones
+<br>
+● Controla que no existen desfases entre operaciones del
+<br>
+CPU
+● Me permiten controlar estados
+<br>
+Registros de control
+Estos registros se utilizan para la transferencia de datos entre
+la CPU y la memoria. Dentro de la CPU, los datos tienen que
+ofrecerse a la ALU para su procesamiento. La ALU puede tener
+acceso directo al de datos y a los registros visibles al usuario.
+Como alternativa, puede haber registros intermedios
+adicionales en el límite de la ALU; estos registros sirven como
+registros de entrada y salida de la ALU e intercambian datos
+con el de datos y los registros visibles al usuario.
+<br>
+Registros de Estado La información sobre el estado del procesador puede estar
+almacenada en un registro o en más de uno, aunque
+habitualmente suele ser un único registro denominado registro
+de estado.
+Los bits del registro son modificados por el procesador como
+resultado de la ejecución de algunos tipos de instrucciones, por
+ejemplo instrucciones aritméticas o lógicas, como consecuencia
+de algún acontecimiento, como las peticiones de interrupción.</p></div>
+		<br>
+		<br>
+		<div class="parrafo-contenedor">
+        <p id="subtema3.1"><b> El ciclo de
+instrucción</b>Ciclo Fetch-Decode-Execute
+El encargado de ejecutar un programa en una computadora es el CPU, y lo hace mediante el ciclo
+Fetch-Decode-Execute, y con él se realizan todas las tareas posibles.
+Está conformado por las siguientes etapas:
+1. Traer la instrucción (Fetch): Se obtiene la instrucción desde la memoria y se almacena en el
+registro de la CPU para nuevas indicaciones.
+<br>
+2. Decodificar la instrucción (Decode): Se identifica el modo de direccionamiento de la
+instrucción y ubicación de datos a tratar.
+<br>
+3. Carga de parámetros: Se carga la lectura, cargando todos los datos identificados en el paso
+anterior
+<br>
+4. Ejecutar (Execute): Se ejecuta la instrucción ya configurada, realiza la tarea indicada
+<br>
+5. Almacenar: Se almacena el resultado obtenido de la instrucción
+<br>
+6. Actualizar PC: Se actualiza el registro PC (Program Counter) que contiene la siguiente dirección
+a ejecutar
+<br>
+Al ser un ciclo, estos pasos se van repitiendo una y otra vez con las diferentes instrucciones que se le
+dan a la computadora.
+<br>
+SEGMENTACIÓN DE
+INSTRUCCIONES
+Es una técnica para ejecutar
+paralela o simultáneamente
+instrucciones de un programa
+dentro de un mismo procesador.
+Esta técnica abarca todo el
+procesador dividiendo una
+instrucción en subinstrucciones.
+<br>
+¿Qué es segmentación de instrucciones?
+● Es una forma efectiva para organiza e lhw de la CPU para realizar más de
+una operación al mismo tiempo
+<br>
+● Consiste en descomponer el proceso de ejecución de las instrucciones en
+fases o etapas que permitan una ejecución simultánea
+<br>
+● Explota el paralelismo entre las instrucciones de un flujo secuencial
+<br>
+¿Qué es el procesamiento concurrente?
+La concurrencia es la propiedad de
+ciertas partes de un programa por
+la cual las instrucciones del mismo
+pueden ejecutarse en desorden (no
+secuencialmente) sin afectar el
+resultado del programa; es una
+propiedad que posibilita que un
+programa se pueda descomponer
+en unidades independientes a
+cualquier orden de ejecución, lo
+cual permite que estas unidades se
+puedan componer y ejecutar de
+vuelta de manera arbitraria.
+Por lo tanto, con el procesamiento
+concurrente, los programas, tras ser
+descompuestos en unidades
+independientes, se ejecutan en el mismo
+periodo de tiempo, no secuencialmente,
+aunque no se ejecutan en el mismo
+momento 2 o más instrucciones/cálculos.
+<br>
+¿Qué es el procesamiento paralelo?
+Es un tipo de procesamiento
+en el cual las instrucciones
+se ejecutan
+simultáneamente, en el
+mismo momento y en el
+mismo periodo.
+Contrasta con la
+computación
+serial/secuencial y la
+concurrente.
+<br>
+
+</p></div>
+		<br>
+		<br>
+		<div class="parrafo-contenedor">
+        <p id="subtema4.1"><b> Modos de
+direccionamiento</b>¿Qué son los modos de direccionamiento?
+		El direccionamiento en computación se refiere a la forma en que se
+especifica una dirección de memoria o un registro dentro de una CPU.
+Hay varios modos de direccionamiento diferentes, que se utilizan para
+diferentes propósitos en el lenguaje ensamblador y en la programación
+de bajo nivel. Algunos de los modos de direccionamiento más comunes
+son:
+<br>
+Direccionamiento inmediato: El direccionamiento inmediato es un modo de direccionamiento en
+informática en el que el valor del operando se incluye directamente en
+la instrucción. En otras palabras, el operando se proporciona como un
+valor inmediato en lugar de una dirección de memoria o registro.
+En el direccionamiento inmediato, el valor del operando se coloca
+directamente en el campo de datos de la instrucción, por lo que la CPU
+puede acceder rápidamente a este valor sin tener que buscar en la
+memoria. Este modo de direccionamiento se utiliza comúnmente para
+asignar valores constantes a registros o para realizar operaciones
+aritméticas simples.
+<br>
+Direccionamiento directo: El direccionamiento directo es un modo de direccionamiento en informática en
+el que la dirección de memoria del operando se especifica directamente en la
+instrucción. En otras palabras, el operando se encuentra en una dirección de
+memoria fija y conocida.
+En el direccionamiento directo, la dirección de memoria del operando se incluye
+directamente en la instrucción. La CPU accede directamente a esta dirección
+de memoria para obtener el valor del operando. Este modo de direccionamiento
+es útil para acceder a datos almacenados en posiciones fijas de la memoria,
+como variables o constantes.
+<br>
+Direccionamiento indirecto: El direccionamiento indirecto es un modo de direccionamiento en
+informática en el que la dirección de memoria del operando se
+encuentra en otro registro o en otra dirección de memoria. En otras
+palabras, el operando se encuentra en una ubicación de memoria que
+se especifica indirectamente a través de otra ubicación de memoria.
+En el direccionamiento indirecto, en lugar de proporcionar la dirección
+de memoria del operando directamente en la instrucción, se
+proporciona la dirección de memoria de una ubicación de memoria
+que contiene la dirección de memoria del operando. La CPU accede
+primero a la ubicación de memoria indirecta para obtener la dirección
+de memoria real del operando y luego accede a esa dirección de
+memoria para obtener el valor del operando.
+<br>
+Direccionamiento relativo: Es un modo de direccionamiento en informática en el que la dirección
+de memoria del operando se especifica como una distancia o
+desplazamiento desde la dirección actual de la instrucción. En otras
+palabras, el operando se encuentra en una posición de memoria
+relativa a la dirección actual de la instrucción.
+En el direccionamiento relativo, se proporciona un valor de
+desplazamiento en la instrucción que se suma a la dirección actual de
+la instrucción para obtener la dirección de memoria del operando. La
+CPU calcula la dirección real del operando sumando el desplazamiento
+a la dirección actual de la instrucción y accede a esa dirección de
+memoria para obtener el valor del operando.
+<br>
+Direccionamiento indexado: Es un modo de direccionamiento en informática en el que la dirección
+de memoria del operando se calcula sumando una dirección base y un
+índice o desplazamiento. En otras palabras, el operando se encuentra
+en una posición de memoria que se calcula mediante una suma de una
+dirección base y un índice o desplazamiento.
+En el direccionamiento indexado, se proporciona una dirección base
+que indica la ubicación inicial del operando, y un índice o
+desplazamiento que se suma a la dirección base para obtener la
+dirección real del operando. La CPU calcula la dirección real del
+operando sumando la dirección base y el índice o desplazamiento y
+accede a esa dirección de memoria para obtener el valor del operando.
+
+</p></div>
+		<br>
+		<br>
+		<div class="parrafo-contenedor">
+		<p id="subtema5.1"><b> Casos de estudio
+de CPU reales</b>Intel
+Intel Corporation es una empresa estadounidense fundada en 1968 por Robert Noyce y Gordon Moore. La
+compañía se especializa en la fabricación de microprocesadores, chips y otros componentes electrónicos para
+ordenadores y dispositivos móviles.
+En sus primeros años, Intel se centró en la fabricación de memorias RAM y ROM, pero su verdadero éxito llegó
+en 1971 cuando desarrolló el primer microprocesador comercialmente viable, el Intel 4004. Este procesador
+revolucionó la industria de la computación al permitir la creación de ordenadores personales más pequeños,
+más baratos y más eficientes.
+<br>
+AMD Advanced Micro Devices, Inc. (AMD) es una compañía estadounidense
+de semiconductores con sede en Santa Clara, California, que desarrolla
+procesadores de computación y productos tecnológicos similares de
+consumo. Sus productos principales incluyen microprocesadores,
+chipsets para placas base, circuitos integrados auxiliares,
+procesadores embebidos y procesadores gráficos para servidores,
+estaciones de trabajo, computadores personales y aplicaciones para
+sistemas embebidos.
+<br>
+AMD Ryzen
+Procesadores de alto rendimiento diseñados
+para usuarios de PC que buscan una
+experiencia rápida y fluida.
+Basados en la arquitectura Zen de AMD, que
+ofrece un gran aumento de rendimiento en
+comparación con los procesadores
+anteriores de la compañía.
+Disponibles en diferentes modelos
+identificados por números de modelo que
+indican su nivel de rendimiento.
+Ofrecen múltiples núcleos y subprocesos
+simultáneos, lo que los hace ideales para
+tareas que requieren un alto rendimiento.
+Cuentan con la tecnología "Precision Boost" que
+optimiza automáticamente el rendimiento del
+procesador para proporcionar un rendimiento máximo
+en tiempo real.
+Ofrecen la tecnología de overclocking "XFR" que
+permite a los usuarios aumentar el rendimiento de su
+procesador más allá de los niveles de fábrica.</p></div>
+		<br>
+		<br>
+		<div class="parrafo-contenedor">
+        <p id="subtema6.1"><b> Registros de Control y de
+Estados</b>En algunos diseños es posible encontrar otros registros relativos a estado
+y control. Puede existir un puntero a bloque de memoria que contenga
+información de estado adicional (por ejemplo, bloques de control de
+procesos). En las máquinas que utilizan interrupciones vectorizadas
+puede existir un registro de vector de interrupciones. Si se utiliza una pila
+para llevar a cabo ciertas funciones, se necesita un puntero a pila del
+sistema. En un sistema de memoria virtual se utiliza un puntero a una
+tabla de páginas. por ́ultimo, pueden utilizarse registros para el control
+de operaciones de E/S</p></div>
+		<br>
+		<br>
+		<div class="parrafo-contenedor">
+        <p id="subtema7.1"><b> Conjunto de instrucciones:
+Características y funciones</b>El conjunto de instrucciones que maneja una computadora es una
+pieza fundamental para el funcionamiento de ésta debido a que las
+instrucciones se comunican directamente con el procesador para
+hacer un manejo adecuado de los datos que están procesando y
+dependiendo del tipo de set de instrucciones que un CPU entienda
+nos dirá el tipo de programas que una computadora puede llegar o no
+a soportar, esto responde muchas veces a las interrogantes de
+porque no podemos utilizar las mismas aplicaciones de un
+dispositivo a otro y muchas veces es por la diferencia de
+procesadores y el conjunto de instrucciones que maneja uno respecto
+al otro.</p></div>
+		
+      </div>
+    </section>
+
+    <section id="unidad3">
+      <h3>Unidad 3: Selección de componentes para ensamble de equipo de cómputo</h3>
+      <div>
+        <h4>Temas:</h4>
+        <ul>
+          <li><a href="#subtema1.2">CHIPSET</a></li>
+          <li><a href="#subtema2.2">Controlador De Bus</a></li>
+          <li><a href="#subtema3.2">Puertos de entrada y salida</a></li>
+          <li><a href="#subtema4.2">Controlador de Interrupciones</a></li>
+		  <li><a href="#subtema5.2">Controlador de acceso directo a la memoria</a></li>
+          <li><a href="#subtema6.2">Circuitos de
+Temporización</a></li>
+          <li><a href="#subtema7.2">Circuitos de control chipset</a></li>
+          <li><a href="#subtema8.2">CONTROLADORES DE VIDEO</a></li>
+		  <li><a href="#subtema9.2">Fuentes de
+alimentación</a></li>
+		  <li><a href="#subtema10.2">Entrada/Salida</a></li>
+		  <li><a href="#subtema11.2">Ambientes de
+servicios</a></li>
+		  <li><a href="#subtema12.2">Industria</a></li>
+		  <li><a href="#subtema13.2">Comercio􀀁
+electrónico</a></li>
+		  
+        </ul>
+		<div class="parrafo-contenedor">
+        <p id="subtema1.2"><b>CHIPSET </b>Un chipset es un conjunto de componentes
+electrónicos que gestionan el flujo de datos
+entre el procesador, la memoria, y los
+periféricos.
+<br>
+CPU 
+CRITERIOS A SELECCIONAR
+Rendimiento
+Núcleos, caché, GPUs
+integradas, frecuencia, hilos.
+<br>
+Finalidad
+Para servidores, uso empresarial,
+doméstico, creativo, científico o de
+entretenimiento.
+<br>
+Compatibilidad
+Zócalos compatibles (esto garantiza
+que sea compatible con la placa madre), compatibilidad de BIOS,
+<br>
+Presupuesto
+$50-100 para uso casual; $150-250 para gaming;
+$250-350 para streaming/creación de contenido;
+$400+ para edición
+<br>
+Compatibilidad􀀁de􀀁
+zócalo
+Un zócalo de microprocesador es el conector que enlaza
+el CPU a la tarjeta madre.
+Para que el CPU sea compatible con la tarjeta madre,
+debe ser compatible con el zócalo.
+Entre diferentes zócalos, mayor cantidad de pines
+aumentará la velocidad de transmisión de las señales,
+están los tipos de PGA o LGA.
+<br>
+Compatibilidad􀀁de􀀁
+BIOS
+La BIOS es firmware, código de bajo nivel que inicializa el
+hardware y el SO.
+Aunque un microprocesador en específico sea
+compatible con la tarjeta madre (y su zócalo) en
+cuestión, esta necesita tener al menos la misma versión
+de la BIOS con la que el microprocesador es compatible.
+<br>
+</p></div>
+		<br>
+		<div class="parrafo-contenedor">
+        <p id="subtema2.2"><b>Controlador De Bus </b>BUS
+		En informática, un bus es un conjunto de líneas de
+comunicación que conectan diferentes
+componentes de hardware dentro de un sistema
+de computación, permitiendo la transferencia de
+datos y señales entre ellos. Esencialmente, el bus
+actúa como una carretera por la que fluye
+información dentro de la computadora.
+<br>
+Controlador
+El driver o controlador de dispositivos es un
+pequeño software que conecta el sistema
+operativo directamente con los componentes del
+hardware de la PC.
+El driver le da instrucciones al sistema operativo
+sobre cómo debe funcionar determinado hardware
+y de qué forma el sistema debe trabajar en
+conjunto para suministrarte los mejores resultados.
+<br>
+Que􀀁es􀀁un􀀁controlador􀀁de􀀁bus
+Un controlador de bus es un componente clave en la
+arquitectura de una computadora que se encarga de
+coordinar y gestionar la comunicación entre los diferentes
+componentes de hardware que se conectan al bus. El
+controlador de bus establece protocolos de comunicación,
+controla el flujo de datos, gestiona interrupciones y asigna
+recursos de hardware, asegurando que los diferentes
+componentes de hardware puedan comunicarse de
+manera efectiva y coordinada.
+<br>
+</p></div>
+		<br>
+		<div class="parrafo-contenedor">
+        <p id="subtema3.2"><b>Puertos de entrada y salida </b>¿Que son?
+		Los puertos de entrada/salida son interfaces que permiten
+la comunicación entre dispositivos periféricos y la placa
+madre o chipset de un ordenador. Estos puertos pueden
+ser utilizados para conectar dispositivos externos, como
+teclados, ratones, impresoras, monitores, discos duros
+externos, entre otros.
+<br>
+En donde se ubican?
+En el chipset tenemos dos componentes principales, el
+Northbridge y el Southbridge. El Northbridge se encarga de
+la comunicación interna y el Southbridge de la
+comunicación externa.
+Por lo tanto los puertos de E/S se encuentran en el
+Southbridge.
+<br>
+Tipos
+● Puerto serial / RS-232: Se utiliza para conectar
+dispositivos de comunicación serial, como
+módems y dispositivos de GPS.
+<br>
+● Puerto paralelo / LPT: utilizado para la
+conexión de impresoras, escáneres y otros
+dispositivos.
+<br>
+● Puerto VGA: Utilizado para conectar monitores y
+pantallas de ordenador a la tarjeta gráfica de una
+computadora mediante señal analógica.
+Reemplazado por HDMI y DisplayPort.
+● USB (Universal Serial Bus):
+<br>
+Usado para conectar una amplia
+variedad de dispositivos
+periféricos, como discos duros
+externos, cámaras digitales,
+teclados, ratones, entre otros.
+Los puertos USB tienen
+diferentes velocidades de
+transferencia de datos, desde
+USB 1.1 hasta USB 3.2 y distintos
+tipos como USB-C y micro-USB
+<br>
+● Ethernet: Usado para conectar el ordenador a
+una red local o a Internet. Los puertos Ethernet
+tienen diferentes velocidades de transferencia
+de datos, desde 10 Mbps hasta 100 Gbps.
+<br>
+● PS/2: Fueron de los primeros puertos usados
+para conectar el mouse y el teclado,
+reemplazados posteriormente por USB.
+<br>
+● DisplayPort: Utilizado para transmitir
+señales de audio y video de alta calidad
+entre dispositivos, como pantallas y
+monitores. Soporta resoluciones de hasta 8K
+y 60Hz.
+<br>
+● HDMI: Este puerto se utiliza para conectar
+dispositivos de video, como monitores y
+televisores, a la placa madre del
+ordenador. HDMI puede transmitir audio y
+video en alta definición a 4K y 60Hz.
+<br>
+● Puerto de audio: Este puerto es
+utilizado para conectar altavoces,
+auriculares, micrófonos y otros
+dispositivos de audio.
+<br>
+● Puerto FireWire: Este puerto es
+utilizado para conectar dispositivos de
+alta velocidad, como cámaras de
+video y discos duros externos.
+FireWire también se conoce como
+IEEE 1394.
+<br>
+</p></div>
+		<br>
+		<div class="parrafo-contenedor">
+        <p id="subtema4.2"><b>Controlador de Interrupciones </b>El controlador de interrupciones es un
+componente crucial en el hardware de una
+computadora. Permite que el procesador sepa
+cuándo ocurre una interrupción y cómo
+manejarla. Sin el controlador de interrupciones,
+una computadora no podría manejar las
+interrupciones de manera eficiente, lo que
+resultaría en un mal funcionamiento del sistema.
+<br>
+La función principal del controlador de
+interrupciones es recibir señales de interrupción
+de dispositivos periféricos y pasarlas al
+procesador. El controlador de interrupciones tiene
+la capacidad de controlar y priorizar estas
+interrupciones según su importanci
+<br>
+El controlador de interrupciones está compuesto por dos chips: el PIC
+maestro y el PIC esclavo. El PIC maestro es el encargado de recibir las señales
+de interrupción y de enviarlas al procesador, mientras que el PIC esclavo se
+utiliza para manejar las interrupciones de los dispositivos periféricos
+adicionales.
+<br>
+La configuración del controlador de
+interrupciones se realiza mediante el
+registro de máscara de interrupción.
+Este registro se utiliza para habilitar o
+deshabilitar las interrupciones de
+dispositivos periféricos específicos.
+<br>
+</p></div>
+		<br>
+		<div class="parrafo-contenedor">
+		<p id="subtema5.2"><b>Controlador de acceso directo a la memoria </b>El acceso directo a memoria es una
+característica de las computadoras y
+microprocesadores modernos que permite que
+ciertos subsistemas de hardware dentro de la
+computadora puedan acceder a la memoria del
+sistema para la lectura y/o escritura,
+independientemente de la unidad central de
+procesamiento (CPU). De lo contrario, la CPU
+tendría que copiar cada porción de datos desde
+el origen hacia el destino, haciendo que ésta no
+esté disponible para otras tareas.
+<br>
+Caracteristicas
+● Aquellas computadoras que tienen canales DMA pueden transferir datos desde y hacia
+los dispositivos con menos utilización de CPU más que aquellas computadoras sin
+canales DMA.
+<br>
+● Una transferencia DMA consiste en copiar un bloque de memoria de un dispositivo a
+otro
+<br>
+● En computadoras sin DMA, el CPU generalmente se ocupa completo durante toda la
+operación de lectura o escritura de la memoria y, por lo tanto, no está disponible para
+realizar otras tareas.
+<br>
+● Con DMA, el CPU puede iniciar la transferencia, luego realizar otras operaciones
+mientras la transferencia está en progreso y luego recibir una interrupción del
+controlador de DMA una vez que la transferencia termina.
+<br>
+● DMA es útil en aplicaciones en tiempo real y en el procesamiento de flujos de datos.
+<br>
+Tipos􀀁de􀀁transferencia
+DMA por robo de ciclo: Esta estrategia utiliza uno o más ciclos de CPU para cada instrucción
+que se ejecuta. Esto permite alta disponibilidad del bus del sistema para la CPU, aunque la
+transferencia de datos se hará más lentamente.
+<br>
+DMA por ráfagas: Esta estrategia consiste en enviar el bloque de datos solicitado mediante
+una ráfaga empleando el bus del sistema hasta finalizar la transferencia. Permite una altísima
+velocidad, pero la CPU no podrá utilizar el bus de sistema durante el tiempo de transferencia,
+por lo que permanece inactiva.
+<br>
+DMA transparente: Esta estrategia consiste en emplear el bus del sistema cuando la CPU no
+lo necesita. Esto permite que la transferencia no impida que la CPU utilice el bus del sistema;
+pero la velocidad de transferencia es la más baja posible.
+DMA Scatter-gather: Esta estrategia permite transmitir datos a varias áreas de memoria en
+una transacción DMA simple. Su objetivo es librar a la CPU la tarea de la copia de datos e
+interrupciones de entrada/salida múltiples.
+<br>
+</p></div>
+		<br>
+		<div class="parrafo-contenedor">
+		<p id="subtema6.2"><b>Circuitos de
+Temporización </b>● Un temporizador es un circuito que se encuentra en la tarjeta madre del
+PC y que es capaz de mantener una cuenta de tiempo basada en el reloj
+de la computadora.
+<br>
+● Un temporizador básicamente consiste en un elemento que se activa o
+desactiva después de un tiempo preestablecido. De esta manera
+podemos determinar el parámetro relacionado con el tiempo que ha de
+transcurrir para que el circuito susceptible de temporizarse, se detenga
+o empiece a funcionar o simplemente cierre un contacto o lo abra.
+<br>
+● Estos circuitos utilizan componentes electrónicos como capacitores,
+resistencias, diodos y transistores para generar señales de
+temporización que pueden utilizarse para realizar diversas funciones.
+<br>
+Los circuitos de temporización se utilizan en una amplia
+variedad de aplicaciones, desde la electrónica de
+consumo hasta la industria, y son esenciales para el
+funcionamiento de muchos sistemas electrónicos
+complejos.
+<br>
+● Generan señales lógicas para sincronizar y regular las diferentes operaciones que realizan
+los subcomponentes del sistema informático.
+<br>
+● Es un chip con la capacidad de realizar diferentes funciones de conteo. Es útil para medir el
+tiempo que dura cierto proceso o para mantener actualizadas la hora del día y la fecha si
+deja la PC conectada y encendida. Se emplea también para controlar períodos de tiempo
+(timers)
+<br>
+● Retarda el paso de una señal desde un nodo del circuito hasta otro punto.
+<br>
+● Puede usarse para calcular el intervalo entre dos mediciones de tiempo o para generar
+pausas.
+<br>
+● Pueden usarse para generar estados de espera, que son periodos de tiempo en los que el
+bus del sistema se detiene o se extiende para adaptarse a la velocidad de las tarjetas o la
+memoria
+<br>
+● Watchdog timer: un temporizador que detecta y recupera fallas de la
+computadora. El temporizador se reinicia periódicamente por la computadora
+durante el funcionamiento normal y, si no se reinicia debido a una falla de
+hardware o un error de programa, genera una señal de tiempo de espera que
+se usa para iniciar acciones correctivas, como poner la computadora y el
+hardware asociado en un estado seguro e invocar un reinicio de la
+computadora.
+<br>
+● High Precision Event Timer: un temporizador que produce interrupciones
+periódicas con una resolución mucho mayor que el reloj en tiempo real (RTC) y
+se usa a menudo para sincronizar flujos multimedia, proporcionando una
+reproducción fluida y reduciendo la necesidad de usar otros cálculos de marca
+de tiempo, como la instrucción RDTSC de una CPU basada en x86
+<br>
+● Programmable interval timer: Un temporizador que genera
+interrupciones a intervalos programables por el usuario. Se usa para
+implementar funciones como el reloj del sistema, el generador de tonos,
+el controlador DMA y el controlador del teclado
+<br>
+● Real-time clock: Un temporizador que mantiene la fecha y la hora
+actuales incluso cuando la computadora está apagada. Se usa para
+proporcionar información de tiempo a la computadora y a las
+aplicaciones.
+<br></div>
+</p>
+		<br>
+		<div class="parrafo-contenedor">
+		<p id="subtema7.2"><b>Circuitos de control chipset </b>Los circuitos de control en un chipset son aquellos componentes
+electrónicos que se encargan de gestionar el flujo de datos y controlar el
+comportamiento de los diferentes dispositivos conectados a la placa
+madre.
+<br>
+El chipset es un conjunto de circuitos integrados que incluyen una
+variedad de componentes electrónicos, como transistores, diodos,
+resistencias, capacitores, etc., diseñados para cumplir con una
+función específica. En el caso de los circuitos de control, estos
+componentes trabajan en conjunto para controlar y coordinar el
+flujo de datos entre el procesador, la memoria y otros dispositivos
+de hardware conectados a la placa madre, como discos duros,
+tarjetas de video, tarjetas de sonido, entre otros.
+<br>
+El chipset se compone principalmente de dos partes: el
+Northbridge y el Southbridge. El Northbridge es
+responsable de conectar el procesador a la memoria y a
+la interfaz de la tarjeta gráfica de alta velocidad, mientras
+que el Southbridge se encarga de conectar los
+periféricos más lentos, como los puertos USB, el disco
+duro y los controladores de red.
+<br>
+Los circuitos de control en un chipset son responsables de
+controlar y coordinar el flujo de datos entre el procesador, la
+memoria y otros dispositivos de hardware conectados a la
+placa madre, permitiendo que los dispositivos trabajen juntos
+de manera eficiente y efectiva.
+<br></div>
+</p>
+		<br>
+		<div class="parrafo-contenedor">
+		<p id="subtema8.2"><b>CONTROLADORES DE VIDEO </b>Los controladores de video son componentes esenciales en cualquier dispositivo
+que tenga una pantalla. Se encargan de enviar la información gráfica desde el
+procesador a la pantalla, asegurando que las imágenes se muestren
+correctamente y sin interrupciones.
+A medida que las pantallas han evolucionado, también lo han hecho los
+controladores de video. Ahora son capaces de soportar resoluciones más altas,
+tasas de refresco más rápidas y colores más precisos, lo que permite una
+experiencia visual impresionante.
+<br>
+Existen dos tipos principales de controladores de video: integrados y dedicados. Los
+controladores integrados se encuentran dentro del procesador y comparten la
+memoria RAM con otros componentes del sistema. Son adecuados para tareas básicas
+como navegación web y edición de documentos, pero no son lo suficientemente
+potentes para juegos o aplicaciones gráficas intensivas.
+Por otro lado, los controladores dedicados tienen su propia memoria y procesador, lo
+que les permite manejar gráficos complejos sin afectar el rendimiento general del
+sistema. Son ideales para juegos, diseño gráfico y edición de video, pero pueden ser
+costosos y consumir mucha energía.
+<br></div>
+</p>
+		<br>
+		<div class="parrafo-contenedor">
+		<p id="subtema9.2"><b>Fuentes de
+alimentación </b>Las fuentes de alimentación son dispositivos que convierten la corriente alterna
+(AC) en corriente continua (DC) para suministrar energía a los componentes de la
+computadora. Existen varios tipos de fuentes de alimentación, como las fuentes
+ATX, las fuentes SFX y las fuentes TFX. Cada tipo tiene sus propias características
+y capacidades de potencia.
+Las fuentes de alimentación también se dividen según su eficiencia energética,
+medida en porcentaje. Las fuentes con una eficiencia del 80% o más se
+consideran eficientes, mientras que las fuentes con una eficiencia del 90% o más
+se consideran de alta eficiencia. Las fuentes de alta eficiencia son más caras pero
+pueden ahorrar dinero a largo plazo debido a su menor consumo de energía.
+<br>
+Las fuentes de voltaje son componentes esenciales en cualquier
+computadora, ya que proporcionan la energía necesaria para que
+el sistema funcione adecuadamente.
+Existen diferentes tipos de fuentes de voltaje, cada una con
+características específicas que se adaptan a las necesidades de
+cada usuario.
+<br>
+Las fuentes de voltaje ATX son las más comunes en el mercado y
+se utilizan en la mayoría de las computadoras personales.
+Estas fuentes de voltaje tienen un conector principal de 24 pines
+y proporcionan energía a los componentes internos de la
+computadora, como la placa madre, el procesador y las tarjetas
+de expansión.
+<br>
+Las fuentes de voltaje EPS son similares a las ATX, pero están
+diseñadas para sistemas de alta gama y servidores.
+Estas fuentes de voltaje tienen conectores adicionales de 4, 6 u 8
+pines para proporcionar energía adicional al procesador y otras
+tarjetas de expansión.
+<br>
+Las fuentes de voltaje modulares permiten al usuario conectar
+solamente los cables que necesita, lo que reduce la cantidad de
+cables innecesarios dentro del equipo.
+Esto ayuda a mejorar la circulación del aire y a mantener una
+temperatura adecuada dentro del sistema, lo que puede
+prolongar la vida útil de los componentes.
+<br></div>
+</p>
+		<br>
+		<div class="parrafo-contenedor">
+		<p id="subtema10.2"><b>Entrada/Salida </b>Un periférico de entrada/salida o E/S (en inglés: input/output o I/O) es aquel
+tipo de dispositivo periférico de un computador capaz de interactuar con los
+elementos externos a ese sistema de forma bidireccional, es decir, que
+permite tanto que sea ingresada información desde un sistema externo,
+como emitir información a partir de ese sistema.
+Los Dispositivos Periféricos de entrada son todos aquellos dispositivos que
+permiten introducir datos o información en una computadora para que esta
+los procese u ordene.
+<br>
+Los periféricos de entrada son aquellos que se
+utilizan para proporcionar datos y señales a la
+unidad de procesamiento. Suele hacerse una
+clasificación de acuerdo a la modalidad de
+entrada, o bien de acuerdo a si la entrada tiene
+carácter discreto o continuo. Algunos de ellos
+son, el teclado, mouse, escáner, cámara web,
+micrófono y lector de CD/DVD.
+<br>
+Son capaces de reproducir lo que ocurre en la
+computadora para el interés del usuario. La CPU
+genera patrones de bits internos, y son estos
+dispositivos los encargados de hacerlos
+comprensibles para el usuario. Algunos de estos
+son: monitor, impresora, auriculares, tarjeta de
+sonido y tarjeta de voz.
+<br>
+</p></div>
+		<br>
+		<div class="parrafo-contenedor">
+		<p id="subtema11.2"><b> Ambientes de
+servicios</b>Los ambientes de servicios en la arquitectura de computadoras
+se refieren a los distintos entornos que son necesarios para el
+correcto funcionamiento de un sistema informático. Estos
+ambientes pueden incluir tanto hardware como software, y son
+fundamentales para garantizar que los dispositivos electrónicos
+puedan interactuar adecuadamente con los usuarios y con otros
+sistemas.
+<br>
+Los negocios suelen tener altas demandas de procesamiento y
+almacenamiento de datos debido a la cantidad de información que
+manejan diariamente. Por esta razón, es necesario seleccionar
+componentes que sean capaces de manejar grandes cantidades de
+información de manera eficiente.
+<br>
+El procesador es uno de los componentes más importantes del
+equipo de cómputo, ya que determina su velocidad y capacidad de
+procesamiento. Para un equipo de negocios, se recomienda un
+procesador de gama media o alta, como Intel Core i5 o i7, o AMD
+Ryzen 5 o 7.
+<br>
+La memoria RAM es otro componente clave en el rendimiento del
+equipo de cómputo. Para un equipo de negocios, se recomienda una
+cantidad mínima de 8GB de RAM, aunque lo ideal sería contar con
+16GB o más.Esto permitirá que el equipo pueda manejar múltiples
+aplicaciones y programas al mismo tiempo sin sufrir de lentitud o
+bloqueos. Además, es importante elegir una memoria RAM de
+calidad y compatible con la placa madre seleccionada.
+<br>
+El disco duro es el componente encargado de almacenar toda la
+información del equipo de cómputo. Para un equipo de negocios, se
+recomienda un disco duro de estado sólido (SSD) de al menos 256GB,
+aunque lo ideal sería contar con un disco duro de mayor capacidad. Los
+discos duros SSD ofrecen una mayor velocidad de lectura y escritura de
+datos, lo que se traduce en un mejor rendimiento del equipo. Sin
+embargo, también son más costosos que los discos duros tradicionales
+de plato (HDD).
+<br>
+La tarjeta gráfica es un componente importante si se utilizan
+aplicaciones o programas que requieren de un alto rendimiento
+gráfico, como diseño gráfico o edición de video. Para un equipo de
+negocios, se recomienda una tarjeta gráfica de gama media o alta,
+como NVIDIA GeForce GTX o AMD Radeon RX. Es importante tener
+en cuenta que no todos los equipos de negocios requieren de una
+tarjeta gráfica dedicada, por lo que se debe evaluar si es necesario
+incluirla en la selección de componentes.
+<br>
+</p></div>
+		<br>
+		<div class="parrafo-contenedor">
+		<p id="subtema12.2"><b> Industria</b>Los servicios de tecnología de información
+redefinieron el mercado en términos de cómo las
+organización evalúan, comparan y seleccionan los
+servicios y como el vendedor desarrolla y
+establece precios de los servicios.
+se requiere un enfoque hacia las soluciones
+genéricas y esto debe ser responsabilidad de los
+proveedores, que deben de desarrollar, operar y
+administrar el resultado de estos genéricos de TI.
+<br>
+Especificaciones􀀁de􀀁
+industria
+puede haber requisitos específicos en cuanto al
+desempeño, capacidad de procesamiento, capacidad de
+almacenamiento y seguridad de la computadora. Por
+ejemplo, en la industria del diseño gráfico y la animación,
+se requiere una computadora con una tarjeta gráfica
+potente y una gran cantidad de memoria RAM para poder
+trabajar con aplicaciones de alta demanda gráfica
+<br>
+Industria􀀁de􀀁
+ingeniería
+Las computadoras pueden requerir un procesador
+potente y una gran cantidad de memoria RAM para
+poder manejar grandes conjuntos de datos y realizar
+cálculos complejos.
+Además, en una industria, también es importante
+considerar la compatibilidad de los componentes de
+la computadora, ya que es posible que se requieran
+componentes especializados que no sean
+compatibles con todos los tipos de hardware
+<br>
+<br>
+
+
+</p></div>
+		<br>
+		<div class="parrafo-contenedor">
+		<p id="subtema13.2"><b>Comercio􀀁
+electrónico </b>El comercio electrónico es la
+compra y venta de bienes o
+servicios a través de
+Internet. Esto implica la
+interacción entre los clientes
+y los proveedores a través
+de servicios de internet.
+
+Relación con la arquitectura de computadoras El comercio electrónico está estrechamente relacionado con la
+arquitectura de computadoras porque su éxito depende en gran medida de
+la infraestructura técnica detrás de él.
+Las plataformas de comercio electrónico requieren sistemas de hardware y
+software que sean confiables, escalables y seguros. Esto incluye servidores
+web, bases de datos, redes de computadoras y sistemas de seguridad.
+
+</p></div>
+		<br>
+		
+      </div>
+    </section>
+
+    <section id="unidad4">
+      <h3>Unidad 4: Procesamiento paralelo</h3>
+      <div>
+        <h4>Temas:</h4>
+        <ul>
+          <li><a href="#subtema1.3">Aspectos
+básicos de
+la
+computación
+paralela</a></li>
+          <li><a href="#subtema2.3">Tipos de
+computación
+paralela y clasificacion</a></li>
+          <li><a href="#subtema3.3">Arquitectura de
+computadores
+secuenciales</a></li>
+          <li><a href="#subtema4.3">Organización de
+direcciones de memoria</a></li>
+		  <li><a href="#subtema5.3">Sistema de
+memoria
+(Compartida)</a></li>
+          <li><a href="#subtema6.3">Redes de
+interconexión dinámica</a></li>
+          <li><a href="#subtema7.3">Sistema de
+memoria
+(distribuida)</a></li>
+          <li><a href="#subtema8.3">Redes de
+interconexión estática</a></li>
+		  <li><a href="#subtema9.3">Casos para
+estudio</a></li>
+          
+        </ul>
+		<div class="parrafo-contenedor">
+        <p id="subtema1.3"><b>Aspectos
+básicos de
+la
+computación
+paralela </b>La computación paralela es una
+técnica de procesamiento de
+información que se basa en la
+utilización de múltiples
+procesadores para llevar a cabo
+una tarea en paralelo, en lugar de
+utilizar un solo procesador. Esta
+técnica permite mejorar
+significativamente la velocidad y
+eficiencia de los cálculos y
+análisis de datos en la
+computadora.
+<br>
+Los sistemas de
+procesamiento paralelo se
+pueden clasificar en dos
+categorías: simétricos y
+asíncronos. Uno donde
+todos los procesadores
+comparten la misma
+memoria, y otro donde cada
+procesador tiene su propia
+memoria.
+<br>
+Las herramientas de computación en
+paralelo son programas y bibliotecas
+que se utilizan para programar y
+ejecutar aplicaciones en sistemas
+paralelos, de forma que podamos sacarle
+el máximo provecho a estos. Un ejemplo
+de esto es la herramienta CUDA
+desarrollada por Nvidia, la cual
+permite que aplicaciones aprovechen el
+procesamiento paralelo para el
+procesamiento de gráficos, usando la
+GPU como un coprocesador usando
+paralelamente sus núcleos.
+<br>
+</p></div>
+		<br>
+		<div class="parrafo-contenedor">
+        <p id="subtema2.3"><b>Tipos de
+computación
+paralela y clasificacion </b>Computación multinúcleo: Un procesador multinúcleo es un procesador que incluye múltiples
+unidades de ejecución (núcleos) en el mismo chip.
+Multiprocesamiento simétrico: Un multiprocesador simétrico (SMP) es un sistema
+computacional con múltiples procesadores idénticos que comparten memoria y se conectan a
+través de un bus.
+Computación en clúster: Un clúster es un grupo de ordenadores débilmente acoplados que
+trabajan en estrecha colaboración, de modo que en algunos aspectos pueden considerarse
+como un solo equipo.
+Procesamiento paralelo masivo: Tienden a ser más grandes que los clústeres, con «mucho
+más» de 100 procesadores.
+Computación distribuida: La computación distribuida es la forma más distribuida de la
+computación paralela. Se hace uso de ordenadores que se comunican a través de la Internet
+para trabajar en un problema dado.
+Circuitos integrados de aplicación específica: Debido a que un ASIC (por definición) es
+específico para una aplicación dada, puede ser completamente optimizado para esa aplicación.
+Procesadores vectoriales: Pueden ejecutar la misma instrucción en grandes conjuntos de
+datos.
+<br>
+</p></div>
+		<br>
+		<div class="parrafo-contenedor">
+        <p id="subtema3.3"><b>Arquitectura de
+computadores
+secuenciales </b>Las computadoras secuenciales se basan en el
+modelo introducido por John Von Neumann, la cual
+consiste en:
+<br>
+● Una Unidad Central de Procesamiento(CPU)
+<br>
+● Memoria Principal para almacenar
+información
+<br>
+● Bus donde fluyan los datos
+<br>
+● Mecanismo de sincronización
+<br>
+Por las limitaciones que este tiene se
+han desarrollado algunas estrategias
+para aumentar el rendimiento.
+La más conocida es la segmentación
+de instrucciones Pipeline que
+consiste en llevar a la cola de
+instrucciones la siguiente instrucción
+que se ejecutará
+<br>
+Biestable: Es un multivibrador capaz de
+permanecer en uno de dos estados posibles
+durante un tiempo indefinido en ausencia de
+perturbaciones. Esta característica es
+ampliamente utilizada en electrónica
+digital para memorizar información. El paso
+de un estado a otro se realiza variando sus
+entradas.
+<br>
+Biestable
+La mayoría de estos sistemas están gobernados por señales
+de reloj a los cuales se los denomina sincronos. Pero al
+contrario a todos ellos que no son gobernados por éste, se
+les conoce como asíncronos.
+Estos pueden encontrarse en forma de Circuito integrado
+(Contador) o como estructuras en sistemas programados
+(Registros de desplazamiento):
+<br>
+Contador: Circuito secuencial construido a partir de
+biestable y puertas lógicas capaz de almacenar y contar
+los impulsos que recibe en la entrada destinada a tal
+efecto, asimismo también actúa como divisor de frecuencia.
+Registros de desplazamiento: Consistente en una serie de
+biestables, generalmente de tipo D, conectados en cascada,
+que basculan de forma sincrénica con la misma sefial de
+reloj.
+<br>
+</p></div>
+		<br>
+		<div class="parrafo-contenedor">
+        <p id="subtema4.3"><b>Organización de
+direcciones de memoria </b>Organización lógica: Los programas a menudo están organizados en
+módulos, algunos de los cuales pueden ser compartidos por diferentes
+programas. La gestión de memoria es responsable de manejar esta
+organización lógica, que se contrapone al espacio de direcciones
+físicas lineales. Una forma de lograrlo es mediante la segmentación
+de memoria.
+Organización física: La memoria suele dividirse en un almacenamiento
+primario de alta velocidad y uno secundario de menor velocidad. La
+gestión de memoria del sistema operativo se ocupa de trasladar la
+información entre estos dos niveles de memoria.
+<br>
+Las direcciones de memoria se organizan en bloques o
+segmentos de memoria, cada uno con una dirección base y un
+tamaño determinado. Las direcciones de memoria se
+representan como números enteros que indican la posición
+en la memoria donde se encuentra un dato o una
+instrucción.
+En los sistemas de memoria de acceso aleatorio (RAM), las
+direcciones de memoria se organizan en una matriz de
+celdas de memoria, donde cada celda se puede acceder
+directamente mediante su dirección. En los sistemas de
+memoria caché, la organización de direcciones de memoria
+se utiliza para gestionar la caché y optimizar el acceso a
+los datos.
+<br>
+Hay dos tipos de organización de direcciones de memoria: la
+organización de direcciones de memoria contiguas y la
+organización de direcciones de memoria no contiguas.
+La organización de direcciones de memoria contiguas es aquella
+en la que las celdas de memoria se organizan de forma
+consecutiva en la memoria. En este tipo de organización, la
+dirección de memoria de una celda se puede calcular sumando la
+dirección de la celda anterior y el tamaño de la celda actual.
+Por ejemplo, si la dirección de la primera celda es 1000 y el
+tamaño de cada celda es de 4 bytes, la dirección de la segunda
+celda sería 1004, la dirección de la tercera celda sería 1008, y
+así sucesivamente.
+<br>
+La organización de direcciones de memoria no contiguas es
+aquella en la que las celdas de memoria se organizan en
+cualquier lugar de la memoria, sin ningún patrón
+predecible. En este tipo de organización, la dirección de
+memoria se asigna a cada celda de forma independiente.
+La organización de direcciones de memoria contiguas es más
+eficiente que la organización de direcciones de memoria no
+contiguas, ya que permite un acceso más rápido a la
+memoria.
+<br>
+Además de la organización de memoria contigua y no
+contigua, existen otras técnicas y conceptos relacionados
+con la organización del espacio de direcciones de memoria
+que son importantes en la arquitectura de los sistemas
+informáticos, como por ejemplo:
+<br>
+● Espacio de direcciones virtual: es una abstracción del
+espacio de direcciones de memoria física que se
+proporciona a los programas que se ejecutan en el
+sistema. Cada programa tiene su propio espacio de
+direcciones virtual que se traduce a una dirección
+física por el sistema operativo.
+<br>
+● Memoria paginada: es una técnica que permite a los
+sistemas operativos administrar de manera eficiente la
+memoria virtual mediante la división del espacio de
+direcciones en páginas de tamaño fijo y la asignación
+de estas páginas a la memoria física según sea
+necesario.
+<br>
+</p></div>
+		<br>
+		<div class="parrafo-contenedor">
+		<p id="subtema5.3"><b>Sistema de
+memoria
+(Compartida) </b>En informática, la memoria compartida es aquel tipo de memoria que
+puede ser accedida por múltiples programas, ya sea para
+comunicarse entre ellos o para evitar copias redundantes. La
+memoria compartida es un modo eficaz de pasar datos entre
+aplicaciones. Dependiendo del contexto, los programas pueden
+ejecutarse en un mismo procesador o en procesadores separados. La
+memoria usada entre dos hilos de ejecución dentro de un mismo
+programa se conoce también como memoria compartida.
+<br>
+La memoria compartida funciona permitiendo que múltiples procesos accedan a la misma región de
+memoria. Esto significa que cada proceso puede leer y escribir en la misma sección de memoria,
+lo que les permite compartir información y comunicarse entre sí de manera eficiente.
+Para implementar la memoria compartida, el sistema operativo proporciona una sección de memoria
+que se puede asignar a varios procesos. Cuando un proceso desea acceder a la memoria compartida,
+debe unirse a ella y obtener un puntero a la región de memoria compartida. A partir de ahí, el
+proceso puede leer y escribir datos en la misma sección de memoria.
+Para evitar problemas de concurrencia, como la posibilidad de que dos procesos accedan a la
+misma región de memoria al mismo tiempo, se utilizan técnicas de sincronización para coordinar
+el acceso a la memoria compartida. Las técnicas de sincronización más comunes son los semáforos
+y los mutex. Estos son objetos que actúan como candados, permitiendo que un solo proceso acceda
+a la memoria compartida en un momento dado. Por ejemplo, cuando un proceso desea escribir en la
+memoria compartida, puede solicitar el candado y obtener acceso exclusivo a la región de
+memoria. Otros procesos que deseen leer o escribir deben esperar hasta que el candado se libere.
+<br>
+Para acceder a la memoria compartida, los procesos deben utilizar una API específica del sistema
+operativo que les permita conectarse a la memoria compartida y acceder a ella de manera segura.
+Por ejemplo, en sistemas operativos basados en Unix, la API de memoria compartida se encuentra
+en la biblioteca de funciones llamada "shmget", que permite a los procesos crear y conectarse a
+segmentos de memoria compartida.
+Una vez que los procesos se han conectado a la memoria compartida, pueden acceder a ella y
+compartir datos de manera eficiente. En lugar de copiar los datos entre los procesos, los datos
+se almacenan en la memoria compartida y se comparten entre los procesos que la utilizan.
+<br>
+Un sistema de memoria compartida puede ser configurado para que varias particiones lógicas
+compartan una agrupación de memoria física. Un entorno de memoria compartida incluye la
+agrupación de memoria compartida, las particiones lógicas que utilizan la memoria compartida en
+la agrupación de memoria compartida, la memoria lógica, la memoria autorizada de E/S, al menos
+una partición lógica del servidor de E/S virtual y dispositivos de espacio de paginación.
+<br>
+Los multiprocesadores son sistemas
+dentro de una computadora que
+implementan el multiprocesamiento, es
+decir, que utilizan más de un procesador
+para procesar paralelamente, lo cual
+mejora la velocidad de ejecución del
+sistema.
+Se distingue del multiprocesamiento
+porque este es un tipo de procesamiento
+en el cual 2 o más procesadores trabajan
+juntos, mientras que los
+multiprocesadores son sistemas de 2 o
+más procesadores que implementan el
+multiprocesamiento.
+<br>
+Es un multiprocesador con una memoria
+compartida y altamente acoplada a los
+procesadores.
+Estos se clasifican en sistemas de
+acceso uniforme a memoria y en sistemas
+de acceso no-uniforme a memoria.
+Dentro de los de acceso uniforme,
+tenemos a los multiprocesadores
+heterogéneos y simétricos; los
+heterogéneos contiene procesadores
+múltiples pero no homogéneos, mientras
+que los simétricos abarcan procesadores
+homogéneos únicamente.
+Los procesadores homogéneos son del
+mismo tipo y utilizan el mismo tipo de
+instrucciones.
+
+</p></div>
+		<br>
+		<div class="parrafo-contenedor">
+        <p id="subtema6.3"><b>Redes de
+interconexión dinámica </b>Las redes de interconexión dinámicas son una tecnología emergente que permite la
+conexión y comunicación entre diferentes sistemas informáticos en tiempo real.
+Estas redes permiten la integración de diferentes plataformas y servicios, lo que
+aumenta la eficiencia y reduce los tiempos de respuesta en los procesos empresariales.
+Red Dinamica
+Una red dinámica es una red cuya topología puede variar durante el cursó de la
+ejecución de un programa paralelo o entre dos ejecuciones de programas. La red está
+constituida por elementos materiales específicos, llamados Conmutadores o switches
+<br>
+Red Indirecta
+Las redes indirectas también pueden modelarse con un grafo donde n es un conjunto dé
+switches y c es el conjunto de enlaces unidireccionales o bidireccionales entre switches.
+Para el análisis de la mayoría de propiedades, no es necesario incluir explícitamente los
+nodos de procesamiento en el grafo. Aunque las redes indirectas pueden modelarse de
+forma similar a las directas existen algunas diferencias entre ellas
+<br>
+Las redes de interconexión dinámicas son sistemas de comunicación que permiten la
+transferencia de datos en tiempo real entre diferentes dispositivos y plataformas.
+Estas redes se caracterizan por su capacidad para adaptarse a diferentes entornos y
+situaciones, lo que les permite optimizar la comunicación y el intercambio de información en
+diferentes contextos y sectores.
+Un ejemplo de red de interconexión dinámica es Internet, en la que la comunicación entre
+dispositivos se realiza a través de múltiples nodos intermedios. Otro ejemplo son las redes
+neuronales, en las que las conexiones entre neuronas se realizan a través de sinapsis y
+neurotransmisores.
+<br>
+Medio compartido = 
+Técnica utilizada para compartir recursos entre
+varios componentes de hardware, como procesadores y
+dispositivos de almacenamiento.
+Por ejemplo: Los componentes como la memoria y los
+dispositivos E/S comparten un bus para comunicarse
+entre sí, haciendo que el bus sea un medio
+compartido entre ambos para llevar datos a
+diferentes componentes
+<br>
+Puede ofrecer ventajas en términos de
+simplicidad, flexibilidad y eficiencia en el uso
+de los recursos. Sin embargo, también puede
+presentar algunas limitaciones, como la necesidad
+de coordinar el acceso al medio compartido entre
+los diferentes componentes para evitar colisiones
+de datos y garantizar un rendimiento óptimo.
+<br>
+Diferentes componentes de la computadora, como la CPU, la
+memoria y los dispositivos de E/S, comparten un bus de
+sistema común para comunicarse entre sí
+El bus de sistema es un conjunto de líneas que se utilizan
+para enviar y recibir datos, direcciones y señales de
+control
+pero también puede presentar algunas limitaciones en
+términos de rendimiento y escalabilidad.
+<br>
+El uso de discos compartidos permite una mayor
+eficiencia en el uso de los recursos de
+almacenamiento y una mayor facilidad de
+administración, ya que los datos pueden ser
+compartidos entre varios nodos.
+Sin embargo, también puede presentar limitaciones
+en términos de rendimiento y escalabilidad, así
+como en términos de seguridad y privacidad de los
+datos.
+<br>
+Una red de interconexión conmutada es un tipo de red que
+conecta dispositivos de forma que puedan comunicarse
+entre sí. La "conmutación" se refiere a la capacidad de
+la red para enrutar el tráfico entre los dispositivos
+conectados de manera eficiente. En otras palabras, la red
+decide cómo enviar la información de un dispositivo a
+otro de la forma más rápida y efectiva posible. Una red
+de interconexión conmutada puede ser gestionada de manera
+centralizada, lo que permite una mayor flexibilidad y
+adaptabilidad en la configuración de la red.
+<br>
+La arquitectura de las redes de
+interconexión dinámica conmutadas se
+compone de diferentes capas que permiten
+el funcionamiento y la gestión de los
+dispositivos conectados.
+Entre las capas más importantes se
+encuentran la capa de transporte, la
+capa de control y la capa de aplicación,
+cada una con sus propias funciones y
+protocolos de comunicación.
+<br>
+Las redes de interconexión dinámica
+conmutadas ofrecen numerosas ventajas
+frente a otras tecnologías de red, como
+la escalabilidad, la flexibilidad y la
+eficiencia energética.
+Además, estas redes permiten la
+integración de diferentes tipos de
+dispositivos y sistemas, lo que las hace
+ideales para la implementación de
+soluciones IoT y la automatización
+industrial.
+
+</p></div>
+		<br>
+		<div class="parrafo-contenedor">
+        <p id="subtema7.3"><b>Sistema de
+memoria
+(distribuida) </b>Los sistemas multicomputadores
+se pueden ver como un
+computador paralelo en el cual
+cada procesador tiene su
+propia memoria local.
+<br>
+En estos sistemas la memoria se encuentra distribuida y no compartida como
+en los sistemas multiprocesador. Los computadores se comunican a través de
+paso de mensajes, ya que éstos sólo tienen acceso directo a su memoria local
+y no a las memorias del resto de procesadores.
+La transferencia de los datos se
+realiza a través de la red de
+interconexión que conecta un
+subconjunto de procesadores con
+otro subconjunto. La transferencia
+de unos procesadores a otros se
+realiza por tanto por múltiples
+transferencias entre procesadores
+conectados dependiendo del
+establecimiento de dicha red.
+
+</p></div>
+		<br>
+		<div class="parrafo-contenedor">
+        <p id="subtema8.3"><b>Redes de
+interconexión estática </b>Al tener una máquina paralela a diversos procesadores
+surge la necesidad de comunicar información entre ellos
+de cara a resolver un problema común o la existencia de
+una red de interconexión que permita realizar las
+operaciones descritas.
+El papel de la red de interconexión es tanto más
+importante cuanto mayor sea el número de elementos
+físicos que se deben unir y el flujo de información que
+se desee intercambiar; en el caso de los ordenadores
+masivamente paralelos
+<br>
+Una red estática es una red cuya topología queda definida de
+manera definitiva y estable durante la construcción de la
+máquina paralela. La red simplemente une los diversos
+elementos de acuerdo a una configuración dada. Se utiliza
+sobre todo en el caso de los multicomputadores para conectar
+los diversos procesadores que posee la máquina
++Recordando que un multicomputador es una máquina con memoria
+distribuida.
++ Y los multiprocesadores son máquinas con memoria
+compartida o común
+<br>
+Topología en estrella: todos los dispositivos están conectados
+a un centro común, como un concentrador o un switch. Los
+dispositivos no se conectan directamente entre sí.
+Topología en bus: todos los dispositivos se conectan a un solo
+cable de comunicaciones. Los dispositivos se comunican entre
+sí enviando y recibiendo señales en este cable.
+<br>
+Topología en anillo: los dispositivos se conectan en forma de
+anillo cerrado. Cada dispositivo se conecta al dispositivo
+adyacente, y la señal se transmite a través del anillo hasta
+que llega al destino.
+Topología en malla: cada dispositivo se conecta a todos los
+demás dispositivos en la red. Esto proporciona redundancia y
+resiliencia en la red.
+
+</p></div>
+		<br>
+		<div class="parrafo-contenedor">
+		<p id="subtema9.3"><b>Casos para
+estudio </b>NVIDIA: NVIDIA es una empresa que
+diseña y fabrica tarjetas gráficas,
+procesadores y sistemas de
+computación de alto rendimiento. La
+tecnología CUDA de NVIDIA permite la
+computación paralela en sus tarjetas
+gráficas, lo que las hace ideales
+para aplicaciones como la
+inteligencia artificial, la
+simulación y el procesamiento de
+imágenes.
+<br>
+Amazon Web Services: Amazon Web
+Services (AWS) es un servicio de
+computación en la nube que ofrece una
+amplia variedad de opciones de
+computación paralela, incluyendo
+Amazon EC2, que permite el uso de
+múltiples instancias para
+procesamiento paralelo de grandes
+conjuntos de datos.
+<br>
+Google Cloud Platform: Google Cloud
+Platform es otro servicio de
+computación en la nube que utiliza la
+computación paralela para procesar
+grandes cantidades de datos. Google
+también ha desarrollado su propio
+procesador de inteligencia artificial
+llamado TPU (Tensor Processing Unit),
+que utiliza la computación paralela
+para acelerar el entrenamiento de
+redes neuronales.
+<br>
+IBM: IBM ha desarrollado una variedad
+de productos y servicios de
+computación paralela, incluyendo el
+sistema de computación en paralelo
+IBM Blue Gene, que ha sido utilizado
+en aplicaciones científicas y de
+ingeniería, y el servidor de alto
+rendimiento IBM Power System AC922,
+que utiliza procesadores IBM POWER9
+para ofrecer computación de alto
+rendimiento.
+<br>
+● Investigación científica: en
+campos de ingeniería, física y
+química como él LHC en él CERN
+<br>
+● Análisis de datos: se usa para
+analizar grandes cantidades de
+datos ejemplo motores de búsqueda
+<br>
+● Simulación: simulan sistemas
+complejos cómo él clima, dinámica
+de fluidos y él comportamiento de
+materiales
+<br>
+● Procesamiento de imágenes: se usa
+en reconocimiento facial, y
+visión por computadora
+<br>
+</p></div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Derechos de autor &copy; 2023 | Arquitectura de Computadoras por Joshua Ariel Estrada Mercado (cada cuadro es un tema)</p>
+  </footer>
+</body>
+</html>
